@@ -1,0 +1,8 @@
+Feb 16, 2019 7:44:47 PM logger.LoggerClass writeLog
+INFO: javafx.fxml.LoadException: Error resolving onAction='#feedback', either the event handler is not in the Namespace or there is an error in the script.
+/C:/Users/andreea/IdeaProjects/LibrarySystem_V2/out/production/LibrarySystem_V2/userLogin/searchBooks.fxml:22
+
+Feb 16, 2019 7:44:53 PM logger.LoggerClass writeLog
+INFO: javafx.fxml.LoadException: Error resolving onAction='#feedback', either the event handler is not in the Namespace or there is an error in the script.
+/C:/Users/andreea/IdeaProjects/LibrarySystem_V2/out/production/LibrarySystem_V2/userLogin/searchBooks.fxml:22
+

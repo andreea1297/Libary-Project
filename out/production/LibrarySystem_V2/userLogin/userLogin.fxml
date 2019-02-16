@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="396.0" prefWidth="365.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="userLogin.UserLogin">
+    <children>
+        <VBox layoutX="126.0" layoutY="67.0" prefHeight="143.0" prefWidth="217.0">
+            <children>
+                <JFXTextArea fx:id="userId" prefHeight="43.0" prefWidth="183.0" promptText="Username" />
+                <JFXTextArea fx:id="passId" layoutX="10.0" layoutY="10.0" prefHeight="41.0" prefWidth="200.0" promptText="Password" />
+            </children>
+        </VBox>
+        <JFXButton fx:id="loginButton" layoutX="116.0" layoutY="272.0" onAction="#loginAction" prefHeight="35.0" prefWidth="135.0" stylesheets="/appearance/ButtonsAppearance.css" text="Login" />
+        <JFXButton fx:id="forgotButton" layoutX="118.0" layoutY="307.0" mnemonicParsing="false" onAction="#forgotAction" text="Forgot Password" />
+        <JFXButton fx:id="backButton" layoutY="358.0" mnemonicParsing="false" onAction="#backButton" prefHeight="31.0" prefWidth="53.0" text="Back" />
+      <Label layoutX="30.0" layoutY="122.0" prefHeight="17.0" prefWidth="73.0" text="Password" />
+      <Label layoutX="27.0" layoutY="78.0" prefHeight="17.0" prefWidth="88.0" text="Username" />
+    </children>
+</AnchorPane>
